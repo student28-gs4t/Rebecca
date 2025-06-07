@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Tab Title</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tab Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <!-- TYPE CODE BELOW -->
-         <div id="header">
-              <h1>Welcome, <span id="username">________________</span></h1>
-              <span>
-                  <input id="greeter" type="text">
-                  <button id="save-name">Save</button>
-            
-            </span>
-        </div>
-            
-                
-        <div id="intro" > 
-            <h1>Welcome to Rebecca's Summer Blog</h1>
-            <h3>Here you can learn all about Rebecca's Summer</h3>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></il>
+            <li class="current"><a href="about.html">About the Author<a></li>
+        </ul>
+    </nav>
 
-            <p>During this School year, I found the <b>gigantic</b> Libaray at my school and read too many books</p>
-            <p>This summer I'm going to start making more Percy Jackson art</p>
-            <img src="https://cdn.rickriordan.com/wp-content/uploads/2023/10/17000132/camp-half-blood.png" width="40%">
-            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/36ec86103306709.5f4a2d34f056a.jpg" width="20%">
-            <img src="https://i.pinimg.com/736x/d5/1b/75/d51b7583d4aab64eda07d81cfa02734e.jpg" width="20%">
+    <!-- TYPE CODE BELOW -->
+    <div id="header">
+        <h1>Welcome, <span id="username">________________</span></h1>
+        <span>
+            <input id="greeter" type="text">
+            <button id="save-name" onclick="saveName()">Save</button>
 
-            <p>I'm excited to:</p>
-            <ul>
-                <li>Make more fanart<li>
-                </li>Read more books</li>
-            </ul>
-        </div>
-    
+        </span>
+    </div>
 
 
-        <script src="script.js"></script>
-    </body>
+    <div id="intro">
+        <h1>Welcome to Rebecca's Summer Blog</h1>
+        <h3>Here you can learn all about Rebecca's Summer</h3>
+
+        <p>During this School year, I found the <b>gigantic</b> Libaray at my school and read too many books</p>
+        <p>This summer I'm going to start making more Percy Jackson art</p>
+        <img src="https://cdn.rickriordan.com/wp-content/uploads/2023/10/17000132/camp-half-blood.png" width="40%">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/36ec86103306709.5f4a2d34f056a.jpg"
+            width="20%">
+        <img src="https://i.pinimg.com/736x/d5/1b/75/d51b7583d4aab64eda07d81cfa02734e.jpg" width="20%">
+
+        <p>I'm excited to:</p>
+        <ul>
+            <li>Make more fanart
+            <li>
+            </li>Read more books</li>
+        </ul>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
 
 </html>
