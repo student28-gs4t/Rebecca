@@ -9,7 +9,13 @@ function greeting(name) {
 greeting('Rebecca');
 
 function saveName() {
-    let newName = document.getElementById("greeter").value; // text field vaule from the user
+    let newName = docuenmt.getElementById("greeter").value; // text field vaule from the user
     document.getElementById("username").textContent = newName;
     document.getElementById("greeter").value = "";
 }
+document.querySelectorAll('.accordion-header').forEach(function (button) {
+    button.addEventListener('click', function () {
+        let content = this.nextElementSibling;
+        content.style.display = (content.style.display === 'block') ? 'none' :'block';
+    });
+});
